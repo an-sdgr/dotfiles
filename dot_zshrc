@@ -25,4 +25,3 @@ alias gcom='git add * && git status'
 # zsh completion
 autoload -Uz compinit
 compinit
-
