@@ -1,0 +1,4 @@
+Host *sw
+  HostKeyAlgorithms=+ssh-rsa
+  PubkeyAcceptedKeyTypes +ssh-rsa
+  KexAlgorithms=+diffie-hellman-group14-sha1

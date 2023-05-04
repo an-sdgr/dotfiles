@@ -1,0 +1,28 @@
+# nason zshrc
+
+# liquidprompt
+if [ -f /opt/homebrew/share/liquidprompt ]; then
+  . /opt/homebrew/share/liquidprompt
+fi
+
+# terraform aliases
+alias tf='terraform'
+alias tfi='terraform init'
+alias tfp='terraform plan'
+alias tfa='terraform apply'
+alias tfa-a='terraform apply --auto-approve'
+alias tfs='terraform state'
+
+# git
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gho='git push --set-upstream origin'
+alias gl='git pull'
+
+alias gcom='git add * && git status'
+
+# zsh completion
+autoload -Uz compinit
+compinit
+
