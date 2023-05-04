@@ -5,6 +5,8 @@ if [ -f /opt/homebrew/share/liquidprompt ]; then
   . /opt/homebrew/share/liquidprompt
 fi
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # terraform aliases
 alias tf='terraform'
 alias tfi='terraform init'
